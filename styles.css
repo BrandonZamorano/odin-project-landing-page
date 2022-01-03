@@ -140,3 +140,28 @@ body {
   color: #1F2937;
   text-align: center;
 }
+
+/* Quote Section */
+.quote-section {
+  background-color: #E5E7EB;
+  margin-top: 8em;
+  padding: 8em;
+}
+
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 2em;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.quote-author {
+  align-self: end;
+  font-weight: bold;
+  font-size: 24px;
+}
