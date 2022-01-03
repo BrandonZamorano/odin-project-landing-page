@@ -88,6 +88,7 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
+  text-decoration: none;
 }
 
 .btn-cta {
@@ -95,6 +96,10 @@ body {
   color: white;
   font-weight: bold;
   font-size: 18px;
+}
+
+.btn-outline {
+  border: 2px solid white;
 }
 
 /* Info Section */
@@ -164,4 +169,32 @@ body {
   align-self: end;
   font-weight: bold;
   font-size: 24px;
+}
+
+/* CTA Section */
+
+.cta-section {
+
+}
+
+.cta-card {
+  background-color: #3882F6;
+  color: white;
+  width: 75%;
+  margin: 6em auto;
+  padding: 4em;
+  border-radius: .5em;
+
+  display: flex;
+  justify-content: space-around;
+}
+
+.cta-card-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.cta-card-message {
+
+  color: #E4E7EB;
 }
