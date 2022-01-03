@@ -15,7 +15,7 @@ body {
 }
 
 /* Hero Section */
-.hero-section {
+.hero-section, .main-footer {
   background-color: #1f2937;
 }
 .header {
@@ -180,7 +180,7 @@ body {
 .cta-card {
   background-color: #3882F6;
   color: white;
-  width: 75%;
+  /* width: 75%; */
   margin: 6em auto;
   padding: 4em;
   border-radius: .5em;
@@ -197,4 +197,16 @@ body {
 .cta-card-message {
 
   color: #E4E7EB;
+}
+
+/* Main Footer */
+
+.main-footer {
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 2em;
 }
